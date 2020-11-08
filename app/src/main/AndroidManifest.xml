@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.cmpt276.as3.model">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dragon_button"
+        android:label="Dragon Seeker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+    android:theme="@style/AppTheme">
+        <activity
+            android:name="ca.cmpt276.as3.UI.MainActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.cmpt276.as3.UI.MenuActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="ca.cmpt276.as3.UI.GameActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="ca.cmpt276.as3.UI.OptionsActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="ca.cmpt276.as3.UI.HelpActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.kazizi.mineseeker.activity_help"></activity>
+    </application>
+
+</manifest>

@@ -1,7 +1,9 @@
 # board-game-app
 Developed an Android application to create a board game for Chinese New Year.
 
-![alt text](images/Screenshot.jpg)
+
+
+![alt text](images/Screenshot.jpg | width=20))
 
 ![alt text](images/Screenshot1.jpg)
 
